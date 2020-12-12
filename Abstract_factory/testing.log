@@ -1,0 +1,14 @@
+
+PS C:\Users\visha\go\src\github.com\Vishal-Gupta19\go_design_patterns\Abstract_factory> go test -v -cover
+=== RUN   TestMotorbikeFactory
+    vehicle_test.go:16: Motorbike vehicle has 2 wheels
+    vehicle_test.go:22: Sport motorbike has type 1
+    vehicle_test.go:28: Motorbike vehicle has 2 wheels
+=== RUN   TestCarFactory
+    vehicle_test.go:47: Car vehicle has 4 seats
+    vehicle_test.go:52: Luxury car has 4 doors.
+    vehicle_test.go:58: Car vehicle has 4 seats
+    vehicle_test.go:63: Family car has 4 doors.
+--- PASS: TestCarFactory (0.54s)
+PASS
+coverage: 70.8% of statements
